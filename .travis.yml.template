@@ -4,4 +4,5 @@ go:
   - 1.14.x
 
 script:
-  - script(s) for integrating the code
+  - go test -v ./…
+  

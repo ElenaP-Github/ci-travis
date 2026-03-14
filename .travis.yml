@@ -1,0 +1,8 @@
+language: go
+
+go:
+  - 1.14.x
+
+script:
+  - go test -v ./…
+  - go build github.com/elenap-github/ci-travis/cmd/hello-world
